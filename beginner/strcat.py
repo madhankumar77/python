@@ -1,3 +1,3 @@
-str1=raw_input()
-str2=raw_input()
-print str1+str2
+a=raw_input()
+b=raw_input()
+print a+b

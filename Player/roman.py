@@ -40,4 +40,3 @@ try:
 		i=i-1	
 except:
 	print "Invalid"
-© 2018 GitHub, Inc.

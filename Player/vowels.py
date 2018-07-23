@@ -1,17 +1,17 @@
-def remvowels(string):
+def removevowels(string):
 	m=len(string)
-	outstr=''
+	outstring=''
 	v=['a','e','i','o','u','A','E','I','O','U']
 	for i in range(m):
 		if string[i] in v:
 			continue
-		outstr+=string[i]
+		outstring+=string[i]
 	print(outstr)
 
 def main():
 	try:
 		str=input()
-		remvowels(str)
+		removevowels(str)
 	except:
 		print('invalid')
 main()
